@@ -1,0 +1,43 @@
+.box {height: 60px; width: 60px;}
+#box1 {color: rgb(42, 6, 6); background-color: rgb(224, 186, 136); text-align: center; text-decoration: underline; text-decoration-color:rgb(24, 3, 77); text-transform: capitalize;}
+
+
+#box2 {color: rgb(42, 6, 6); background-color: rgb(224, 186, 136); text-align: right; text-decoration: line-through;text-decoration-color:rgb(26, 19, 110);text-transform: lowercase;}
+
+
+#box3 {color: rgb(42, 6, 6); background-color: rgb(212, 195, 173); text-align: left; text-decoration: overline;text-decoration-color:rgb(46, 21, 157); text-transform: uppercase;}
+
+
+#box4 {color: rgb(42, 6, 6); background-color: rgb(224, 186, 136);text-decoration: underline; text-decoration-style:dashed;text-decoration-color:rgb(81, 48, 210); text-transform: none;}
+
+
+#box5 {color: rgb(42, 6, 6); background-color: rgb(224, 186, 136);text-decoration: underline; text-decoration-style:double;text-decoration-color:rgb(69, 11, 11); text-transform: capitalize;}
+
+
+#box6 {color: rgb(42, 6, 6); background-color: rgb(224, 186, 136);text-decoration: underline;  text-decoration-style:wavy;text-decoration-color:rgb(113, 89, 186); text-transform: uppercase;}
+
+#para{
+    line-height: 8px;
+    font-size: 100;
+    font-family: monospace;
+    
+}
+#para_id{
+    font-size: 35px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#para_two{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#para_zero{
+    font-size: xx-large;
+    font-weight: 900;
+    line-height: 40px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

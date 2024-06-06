@@ -1,0 +1,43 @@
+/* @keyframes linearGradient {
+    0% {
+        background-image: url(images/img2.jpg);
+    }
+    30% {
+        background-image: url(images/img2.jpg);
+    }
+    60% {
+        background-image: url(images/img1.jpg);
+    }
+    80% {
+        background-image: url(images/img4.jpg);
+    }
+    100% {
+        background-image: url(images/img5.jpg);
+    }
+} */
+#div {
+    margin: 6rem 12rem;
+    height: 20rem;
+    width: 36rem;
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px gray;
+    animation: slider 10s linear infinite;
+    animation-name: slider;
+}
+    @keyframes slider {
+        0% {
+            background-image: url(images/img2.jpg);
+        }
+        30% {
+            background-image: url(images/img2.jpg);
+        }
+        60% {
+            background-image: url(images/img1.jpg);
+        }
+        80% {
+            background-image: url(images/img4.jpg);
+        }
+        100% {
+            background-image: url(images/img5.jpg);
+        }
+    }
